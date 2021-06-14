@@ -1,0 +1,47 @@
+/*Certification Cards Layout*/
+
+.cert-header-title {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.cert-main-div>* {
+  flex: 1;
+  margin-bottom: 30px;
+}
+
+.cert-main-div {
+  display: flex;
+}
+
+.cert-image-div>img {
+  max-width: 100%;
+  height: auto;
+}
+
+.cert-text-div {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  gap: 32px;
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .cert-header-title {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cert-header-title {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) and (min-width:300px) {
+  .cert-text-div {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}

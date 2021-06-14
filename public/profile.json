@@ -1,0 +1,84 @@
+{
+    "data": {
+        "user": {
+            "name": "BHAVIN VIRANI",
+            "bio": "",
+            "isHireable": false,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/66407251?u=ed3fae469e0ad093e0511ff9bf3115b68054f014&v=4",
+            "location": "Ahmedabad ",
+            "pinnedItems": {
+                "totalCount": 4,
+                "edges": [
+                    {
+                        "node": {
+                            "name": "Daily-Blogs",
+                            "description": null,
+                            "forkCount": 0,
+                            "stargazers": {
+                                "totalCount": 0
+                            },
+                            "url": "https://github.com/bhavinvirani/Daily-Blogs",
+                            "id": "MDEwOlJlcG9zaXRvcnkzMzczMjc2MDU=",
+                            "diskUsage": 2738,
+                            "primaryLanguage": {
+                                "name": "HTML",
+                                "color": "#e34c26"
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "Simon",
+                            "description": null,
+                            "forkCount": 0,
+                            "stargazers": {
+                                "totalCount": 1
+                            },
+                            "url": "https://github.com/bhavinvirani/Simon",
+                            "id": "MDEwOlJlcG9zaXRvcnkzMjQxMTY4NTk=",
+                            "diskUsage": 54,
+                            "primaryLanguage": {
+                                "name": "JavaScript",
+                                "color": "#f1e05a"
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "MailChimp-SignUp",
+                            "description": null,
+                            "forkCount": 0,
+                            "stargazers": {
+                                "totalCount": 0
+                            },
+                            "url": "https://github.com/bhavinvirani/MailChimp-SignUp",
+                            "id": "MDEwOlJlcG9zaXRvcnkzNTEzNzA4MTk=",
+                            "diskUsage": 14,
+                            "primaryLanguage": {
+                                "name": "HTML",
+                                "color": "#e34c26"
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "Own-Band",
+                            "description": null,
+                            "forkCount": 0,
+                            "stargazers": {
+                                "totalCount": 1
+                            },
+                            "url": "https://github.com/bhavinvirani/Own-Band",
+                            "id": "MDEwOlJlcG9zaXRvcnkzMjQwNzY5NTk=",
+                            "diskUsage": 361,
+                            "primaryLanguage": {
+                                "name": "JavaScript",
+                                "color": "#f1e05a"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

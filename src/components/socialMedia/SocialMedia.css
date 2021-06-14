@@ -1,0 +1,112 @@
+.social-media-div {
+  text-align: start;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.social-media-div a {
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border: 2px solid #171C28;
+  margin: 0 5px;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.icon-button i {
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: .2s ease-in;
+}
+
+.social-media-div a .icon {
+  position: relative;
+  color: #262626;
+  font-size: 1.5rem;
+  transition: .5s;
+  z-index: 3;
+}
+
+
+.social-media-div a:hover .icon {
+  color: #fff;
+  transform: rotateY(360deg);
+}
+
+.social-media-div a:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: blue;
+  transition: .5s;
+  z-index: 2;
+}
+
+.social-media-div a:hover:before {
+  top: 0;
+}
+
+.social-media-div .discord:before {
+  background: #3b5999;
+}
+
+.social-media-div .dev:before {
+  background: #0D1219;
+}
+
+.social-media-div .linkedin:before {
+  background-color: #0e76a8;
+}
+
+.social-media-div .github:before {
+  background-color: #333;
+}
+
+.social-media-div .gitlab:before {
+  background-color: #fca326;
+}
+
+.social-media-div .google:before {
+  background-color: #ea4335;
+}
+
+.social-media-div .twitter:before {
+  background-color: #1da1f2;
+}
+
+.social-media-div .medium:before {
+  background-color: #000;
+}
+
+.social-media-div .stack-overflow:before {
+  background-color: #f48024;
+}
+
+.social-media-div .instagram:before {
+  background-color: #c13584;
+}
+
+
+/* Media Query */
+@media (max-width: 768px) {
+  .social-media-div {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}

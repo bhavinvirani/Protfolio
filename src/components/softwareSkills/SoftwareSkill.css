@@ -1,0 +1,62 @@
+.dev-icons {
+  padding-left: 0;
+  list-style: none;
+  font-size: 3rem;
+  text-align: center;
+  margin: 12px 0 12px 22px;
+}
+
+.software-skill-inline {
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.software-skill-inline > i {
+  color: #868e96;
+}
+.software-skill-inline>p {
+  color: #868e96;
+  font-size: 10px;
+}
+
+#html-5 > i:hover {
+  color: #DD4B25;
+}
+#css3>i:hover {
+  color: #1F5FAA;
+}
+#js>i:hover {
+  color: #E8D44D;
+}
+#reactjs>i:hover {
+  color: #5ED3F3;
+}
+#nodejs>i:hover {
+  color: #3F853C;
+}
+#npm>i:hover {
+  color: #C23535;
+}
+#sql>i:hover {
+  color: #00758F;
+}
+#mongodb>i:hover {
+  color: #43A53B;
+}
+#python > i:hover{
+  color: #f7ce48;
+}
+#git>i:hover {
+  color: #E84D31;
+}
+
+.software-skill-inline > i:hover ~ .darkp {
+  color: #ffffff;
+}
+.software-skill-inline > i:hover ~ .lightp {
+  color: #000000;
+  font-weight: bold;
+}
+
+
