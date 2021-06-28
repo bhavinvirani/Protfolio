@@ -3,12 +3,29 @@
         "user": {
             "name": "BHAVIN VIRANI",
             "bio": "",
-            "isHireable": false,
+            "isHireable": "Yes",
             "avatarUrl": "https://avatars.githubusercontent.com/u/66407251?u=ed3fae469e0ad093e0511ff9bf3115b68054f014&v=4",
             "location": "Ahmedabad ",
             "pinnedItems": {
-                "totalCount": 4,
+                "totalCount": 5,
                 "edges": [
+                    {
+                        "node": {
+                            "name": "Shop",
+                            "description": null,
+                            "forkCount": 0,
+                            "stargazers": {
+                                "totalCount": 0
+                            },
+                            "url": "https://github.com/bhavinvirani/Shop",
+                            "id": "MDEwOlJlcG9zaXRvcnkzNjg1MDMyNzA=",
+                            "diskUsage": 177,
+                            "primaryLanguage": {
+                                "name": "JavaScript",
+                                "color": "#f1e05a"
+                            }
+                        }
+                    },
                     {
                         "node": {
                             "name": "Daily-Blogs",
@@ -23,23 +40,6 @@
                             "primaryLanguage": {
                                 "name": "HTML",
                                 "color": "#e34c26"
-                            }
-                        }
-                    },
-                    {
-                        "node": {
-                            "name": "Simon",
-                            "description": null,
-                            "forkCount": 0,
-                            "stargazers": {
-                                "totalCount": 1
-                            },
-                            "url": "https://github.com/bhavinvirani/Simon",
-                            "id": "MDEwOlJlcG9zaXRvcnkzMjQxMTY4NTk=",
-                            "diskUsage": 54,
-                            "primaryLanguage": {
-                                "name": "JavaScript",
-                                "color": "#f1e05a"
                             }
                         }
                     },
@@ -62,15 +62,32 @@
                     },
                     {
                         "node": {
-                            "name": "Own-Band",
+                            "name": "Keeper",
                             "description": null,
                             "forkCount": 0,
                             "stargazers": {
-                                "totalCount": 1
+                                "totalCount": 0
                             },
-                            "url": "https://github.com/bhavinvirani/Own-Band",
-                            "id": "MDEwOlJlcG9zaXRvcnkzMjQwNzY5NTk=",
-                            "diskUsage": 361,
+                            "url": "https://github.com/bhavinvirani/Keeper",
+                            "id": "MDEwOlJlcG9zaXRvcnkzNTcwNjA1MjQ=",
+                            "diskUsage": 227,
+                            "primaryLanguage": {
+                                "name": "JavaScript",
+                                "color": "#f1e05a"
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "Disney-Clone",
+                            "description": null,
+                            "forkCount": 0,
+                            "stargazers": {
+                                "totalCount": 0
+                            },
+                            "url": "https://github.com/bhavinvirani/Disney-Clone",
+                            "id": "MDEwOlJlcG9zaXRvcnkzNjQyOTUyMDA=",
+                            "diskUsage": 5442,
                             "primaryLanguage": {
                                 "name": "JavaScript",
                                 "color": "#f1e05a"

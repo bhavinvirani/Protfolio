@@ -4,7 +4,7 @@
   align-items: center;
   text-align: center;
   border-radius: 10px;
-  box-shadow: 0 0 36px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 36px rgba(255, 255, 255, 0.1);
   flex: 0 0 30%;
   width: 100%;
 }
@@ -46,7 +46,7 @@
 .content .content-overlay {
   background: rgba(0, 0, 0, 0.7);
   position: absolute;
-  height: 99%;
+  height: 100%;
   width: 100%;
   left: 0;
   top: 0;

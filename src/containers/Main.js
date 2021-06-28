@@ -45,7 +45,7 @@ const Main = () => {
                 <Blogs />
                 <Profile />
                 <Footer />
-                {/* <Top /> */}
+                <Top />
             </StyleProvider>
         </div>
     );

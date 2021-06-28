@@ -1,6 +1,5 @@
 /*Blog Cards Layout*/
 .square {
-  
   width: 440px;
   height: 430px;
   background: white;
@@ -19,6 +18,7 @@
 .blog-header-text {
   font-size: 56px;
   font-weight: 400;
+  margin:10px;
 }
 
 .blog-subtitle {
@@ -41,12 +41,13 @@
 
 .blog-text-div {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(415px, 1fr));
   gap: 32px;
 }
 
 .subTitle {
   color: #868e96;
+  margin-bottom: 22px;
 }
 
 /* Media Query */

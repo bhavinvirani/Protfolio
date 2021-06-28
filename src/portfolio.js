@@ -176,21 +176,36 @@ To know how to get github key look at readme.md */
 const openSource = {
     githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
     githubUserName: "bhavinvirani", // Change to your github username to view your profile in Contact Section.
-    showGithubProfile: true, // Set true or false to show Contact profile using Github, defaults to true
+    showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
     display: true // Set false to hide this section, defaults to true
 };
-
-
-
-
 
 
 const blogSection = {
     title: "Blogs",
     subtitle:
-        "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-
+        "With Love for Developing cool stuff, I love to write and teach others what I have learnt",
     blogs: [
+        {
+            url:
+                "https://dev.to/bhavinvirani/getting-started-with-git-1jlj",
+            title: "Getting Started with 'Git'",
+            description:
+                "Git is a version control system (VCS) that makes easier to track changes to files(code). For example, when you edit a file, git can help you to determine..."
+        },
+        {
+            url:
+                "https://dev.to/bhavinvirani/2d-vector-in-c-23gh",
+            title: " about Mongoose",
+            description:
+                "MnongoDB provides it's native driver to work with our project at server side but it may be large amount of code or repetition in code but..."
+        },
+        {
+            url: "https://dev.to/bhavinvirani/vector-in-c-4550",
+            title: "Vector in C++",
+            description:
+                "Vectors in C++ are sequence containers representing arrays that can change their size during runtime. They use contiguous storage locations for their elements..."
+        },
         {
             url:
                 "https://dev.to/bhavinvirani/2d-vector-in-c-23gh",
@@ -198,21 +213,14 @@ const blogSection = {
             description:
                 "We can define 2D Vector as Vector of Vector followed by N number of rows where each of the row is individual a vector..."
         },
-        {
-            url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-            title: "Why REACT is The Best?",
-            description:
-                "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-        }
     ],
     display: true // Set false to hide this section, defaults to true
 };
 
-
 const contactInfo = {
     title: emoji("Contact Me ☎️"),
     subtitle:
-        "Discuss a project or just want to say hi? My Inbox is open for all.",
+        "Discuss a project or just want to say hi? My Inbox is open for all",
     email_address: "bhavinvirani45@gmail.com"
 };
 

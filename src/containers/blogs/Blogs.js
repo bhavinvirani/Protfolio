@@ -10,7 +10,7 @@ export default function Blogs() {
     return null;
   }
   return (
-    <Fade bottom duration={1000} distance="20px">
+    <Fade bottom duration={1200} distance="40px">
       <div className="main" id="blogs">
         <div className="blog-header">
           <h1 className="blog-header-text">{blogSection.title}</h1>
