@@ -1,5 +1,7 @@
 .contact-div-main {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact-div-main > * {
@@ -18,6 +20,12 @@
   font-weight: 400;
   color: #868e96;
   text-decoration: none;
+}
+.contact-socialMedia{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
 }
 
 .contact-detail:hover,

@@ -26,6 +26,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+#loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
 /* Hide scrollbar */
 ::-webkit-scrollbar {
   display: none;
