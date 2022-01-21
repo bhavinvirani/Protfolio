@@ -2,7 +2,6 @@
   text-align: start;
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: center; */
   align-items: center;
 }
 
@@ -35,14 +34,8 @@
   position: relative;
   color: #262626;
   font-size: 1.5rem;
-  transition: .5s;
+  transition: .6s;
   z-index: 3;
-}
-
-
-.social-media-div a:hover .icon {
-  color: #fff;
-  transform: rotateY(360deg);
 }
 
 .social-media-div a:before {
@@ -52,9 +45,13 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: blue;
-  transition: .5s;
+  transition: .6s;
   z-index: 2;
+}
+
+.social-media-div a:hover .icon {
+  color: #fff;
+  transform: rotateY(360deg);
 }
 
 .social-media-div a:hover:before {
