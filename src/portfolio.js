@@ -28,13 +28,13 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY GEEK WHO WANTS TO EXPLORE SOMETHING NEW EVERYDAY.",
   skills: [
     emoji("⚡  Problem solving"),
     emoji(
       "⚡  Integration of third party services such as  OAuth 2.0 / Bootstrap "
     ),
-    emoji("⚡  Interested in Blockchain technology and backend development "),
+    emoji("⚡ Interested in Blockchain technology and backend development "),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -94,27 +94,7 @@ const skillsSection = {
   ],
 };
 
-// Education Section
 
-// Your top 3 proficient stacks/tech experience
-const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
-  experience: [
-    {
-      Stack: "Backend",
-      progressPercentage: "85%",
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "90%",
-    },
-    {
-      Stack: "Frontend / Design", //Insert stack or technology you have experience in
-      progressPercentage: "70%", //Insert relative proficiency in percentage
-    },
-  ],
-  displayCodersrank: true, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
-};
 
 // Work experience section
 const certifications = {
@@ -158,8 +138,6 @@ const certifications = {
   ],
 };
 
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
@@ -212,7 +190,6 @@ export {
   greeting,
   socialMediaLinks,
   skillsSection,
-  techStack,
   openSource,
   blogSection,
   contactInfo,

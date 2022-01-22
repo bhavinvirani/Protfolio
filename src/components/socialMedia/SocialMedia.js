@@ -46,11 +46,11 @@ const socialMedia = () => {
       {socialMediaLinks.gmail ? (
         <a
           href={`mailto:${socialMediaLinks.gmail}`}
-          className="icon-button google"
+          className="icon-button email"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-google icon"></i>
+          <i className="fas fa-envelope icon"></i>
           <span></span>
         </a>
       ) : null}
