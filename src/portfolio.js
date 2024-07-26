@@ -7,7 +7,7 @@ const greeting = {
   greetingName: "Bhavin",
   subTitle: emoji(" IT Student 👨‍💻 || Tech Writer ✍️ "),
   resumeLink:
-    "https://drive.google.com/file/d/https://drive.google.com/file/d/1p7M2yX_fs3yKhcziqiUHDDGOkY2IkrNC/view?usp=sharing/view?usp=sharing",
+    "https://drive.google.com/file/d/1Dry_N32vEzUVklFVv2iIISzhJJqWgcta/view?usp=share_link",
 };
 
 // Social Media Links
@@ -19,13 +19,9 @@ const socialMediaLinks = {
   gmail: "bhavinvirani45@gmail.com",
   twitter: "https://twitter.com/BhavinVirani45",
   discord: "https://discordapp.com/705788162516975667",
-  // medium: "https://medium.com/@bhavinvirani45",
-  // stackoverflow: "https://stackoverflow.com/users/14687344/bhavin-virani",
-  // instagram: 'https://www.instagram.com/bhavinn_45',
 };
 
 // Skills Section
-
 const skillsSection = {
   title: "What I do",
   subTitle: "CRAZY GEEK WHO WANTS TO EXPLORE SOMETHING NEW EVERYDAY.",
